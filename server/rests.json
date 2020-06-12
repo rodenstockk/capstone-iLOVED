@@ -176,12 +176,12 @@
         "catag": "asian, thai, pad thai, spring roll",
         "image":"http://localhost:8080/r2.jpg",
         "experience": [
-            {"date": "1586208509000", "experience": "Had wonderful time with Rio, Pad Thai tasted very authentic! would come here again for Rainy days :)"},
+            {"date": "1586208509000", "experience": "Ordered the basil pork belly lunch special. SO MUCH FLAVOR. I really want to give 5 stars but the pork belly was so crispy to the point it was kind of dry and chewy? Would order it again to give it a second try though because it tasted so good. Another thing: soooo spicy, the dishes on the lunch menu aren’t specified whether or not they are spicy! The hot and sour soup was spicy as well. I would expect that they would base their spicy level on the demographic of the area. In addition the service was a little odd too"},
             {"date": "1586208509000", "experience": "Had wonderful time with Rio, Pad Thai tasted very authentic! would come here again for Rainy days :)"}
         ],
         "menu" : [
             {
-                "name": "Tom Yum Goong (Shrimp)",
+                "name": "Tom Yum Goong",
                 "price": "$9.95",
                 "intro": "Lemongrass soup with Shrimps",
                 "catag": "asian, thai, tom",
@@ -249,77 +249,57 @@
         "phone": "(647) 351-7645",
         "intro" : "Inventive breakfasts & globally inspired lunches served in a bright, art-filled space",
         "catag": "breakfast, brunch",
-        "image":"http://localhost:8080/r3.jpeg",
+        "image":"http://localhost:8080/r3.jpg",
         "experience": [
             {"date": "1586208509000", "experience": "Had wonderful time with Rio, Breakfast rocked! would come here again for Rainy days :)"}
         ],
         "menu" : [
             {
-                "name": "Tom Yum Goong (Shrimp)",
-                "price": "$9.95",
-                "intro": "Lemongrass soup with Shrimps",
-                "catag": "asian, thai, tom",
-                "image": "http://localhost:8080/bkk-tom.jpg",
+                "name": "Granola Bowl",
+                "price": "$9.00",
+                "intro": "Balkan yogurt topped with house-made granola, pepitas, fruit and honey",
+                "catag": "breakfast, brunch, yogurt, granola",
+                "image": "http://localhost:8080/lady-gb.jpg",
                 "iLoved": false,
                 "willLove": false,
                 "enough": false
             },
             {
-                "name": "Tom Yum Veggies & Tofu",
-                "price": "$7.95",
-                "intro": "Lemongrass soup with mixed veggies and tofu",
-                "catag": "asian, thai, tom, vegetarian",
-                "image": "http://localhost:8080/bkk-tomVege.jpg",
+                "name": "Bread Pudding",
+                "price": "$13.50",
+                "intro": "Bread Pudding topped with fruit, berry coulis and maple syrup",
+                "catag": "breakfast, brunch",
+                "image": "http://localhost:8080/lady-bp.jpg",
                 "iLoved": false,
                 "willLove": false,
                 "enough": false
             },
             {
-                "name": "Pad Thai",
-                "price": "$12.95",
-                "intro": "Rice noodle with tamarind sauce and peanut",
-                "catag": "asian, thai, pad thai",
-                "image": "http://localhost:8080/bkk-pad.jpg",
+                "name": "LM Eggs Benedict",
+                "price": "$17.00",
+                "intro": "two poached eggs topped with brie, avocado, bacon and hollandaise. Served with a green salad, home fries or tomatoes.",
+                "catag": "breakfast, brunch",
+                "image": "http://localhost:8080/lady-eb.jpg",
                 "iLoved": false,
                 "willLove": false,
                 "enough": false
             },
             {
-                "name": "Pad See Ewe",
+                "name": "Huevos Migas",
                 "price": "$14.95",
-                "intro": "Flat rice noodle with beef and soya sauce",
-                "catag": "asian, thai, pad thai",
-                "image": "http://localhost:8080/bkk-padSee.jpg",
+                "intro": "three scrambled eggs with sausage, cheese, pico de gallo, brown rice, black beans, sour cream and organic corn chips",
+                "catag": "breakfast, brunch",
+                "image": "http://localhost:8080/lady-hm.jpg",
                 "iLoved": false,
                 "willLove": false,
                 "enough": false
             },
             {
-                "name": "Green Curry",
-                "price": "$14.95",
-                "intro": "Coconut curry with bamboo shoot, Served with rice",
-                "catag": "asian, thai, curry",
-                "image": "http://localhost:8080/bkk-green.jpg",
-                "iLoved": false,
-                "willLove": false,
-                "enough": false
-            },
-            {
-                "name": "Red Curry",
-                "price": "$14.95",
-                "intro": "Coconut curry with pineapple, Served with rice",
-                "catag": "asian, thai, curry",
-                "image": "http://localhost:8080/bkk-red.jpg",
-                "iLoved": false,
-                "willLove": false,
-                "enough": false
-            },
-            {
-                "name": "Spring Rolls",
-                "price": "$5.95",
-                "intro": "Veggies Spring Rolls (5 pcs)",
-                "catag": "asian, thai, srping roll",
-                "image": "http://localhost:8080/bkk-spring.jpg",
+                "name": "The Club",
+                "price": "$15.00",
+                "intro": "bacon, chicken, avocado, tomatoes, lettuce, red onion and chipotle mayo. Served with soup, green salad or home fries",
+                "catag": "breakfast, brunch",
+                "image": "http://localhost:8080/lady-tc.jpg",
                 "iLoved": false,
                 "willLove": false,
                 "enough": false
