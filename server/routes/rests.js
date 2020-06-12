@@ -33,6 +33,52 @@ router.get('/restaurants/:id', (req, res)=> {
 })
 
 
+router.get('/restaurants/:id/menu/:name', (req, res)=> {
+            
+    let currRest = req.params.id
+    ? rests.find(restaurants => restaurants.id === req.params.id)
+    : rests;
+    
+    let currMenu = currRest.menu.find(menu => menu.name === req.params.name)
+      
+    if(!currMenu){
+        res.status(404).json({error: 'id not found'})
+        return;
+    }
+    res.json(currMenu)
+})
+
+
+router.put('/restaurants/:id/menu/:name', (req, res)=> {
+            
+    let currRest = req.params.id
+    ? rests.find(restaurants => restaurants.id === req.params.id)
+    : rests;
+    
+    let currMenu = currRest.menu.find(menu => menu.name === req.params.name)
+    console.log(req.body)
+
+
+    if ('showModal' in req.body) {
+        currMenu['showModal'] = req.body.showModal
+        console.log(currMenu)
+    } 
+    
+    
+    else {
+        currMenu.iLoved = req.body.iLoved
+        currMenu.willLove = req.body.willLove
+        currMenu.enough = req.body.enough
+    }
+    if(!currMenu){
+        res.status(404).json({error: 'id not found'})
+        return;
+    }
+    res.json(currMenu)
+})
+
+
+
 router.post('/restaurants/:id/experience', (req, res) => {
     console.log(req.params)
     let currRests = req.params.id

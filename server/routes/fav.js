@@ -13,29 +13,32 @@ router.get('/favorite', (req, res) => {
     res.json(fav)
 });
 
-
-// router.get('/restaurants/:id', (req, res)=> {
-            
-//     let currRest = req.params.id
-//     ? rests.find(restaurants => restaurants.id === req.params.id)
-//     : rests;
-    
-//     if(!currRest){
-//         res.status(404).json({error: 'id not found'})
-//         return;
-//     }
-//     res.json(currRest)
-// })
-
+router.get('/favorite/:name', (req, res) => {
+  let currFav = req.params.name
+  ? fav.find(meal => meal.name === req.params.name)
+  : fav;
+  
+  res.json(currFav)
+});
 
 router.post('/favorite', (req, res) => {
     console.log(req.params)
-    // let currFav = req.params.id
-    // ? rests.find(restaurants => restaurants.id === req.params.id)
-    // : rests;
 
     fav.push(req.body);
     res.json(fav)
   });
+
+
+
+router.delete('/favorite/:name', (req, res) => {
+                
+  let mealToBeRemoved = fav.findIndex( meal => meal.name === req.params.name )
+  fav.splice(mealToBeRemoved, 1);
+
+  res.send(JSON.stringify(fav));
+});
+
+
+
 
 module.exports = router; 
