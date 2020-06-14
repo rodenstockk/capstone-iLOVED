@@ -65,7 +65,11 @@ and leave simple journal of your experience
 
  4.6 iLOVED!(favorite page) - users can click through nested routes to view their liked/stared/not-liked meal
  
- ![6](https://user-images.githubusercontent.com/59574143/84601667-fee08d80-ae4f-11ea-998b-9602fc7699b7.png)
+![6-1](https://user-images.githubusercontent.com/59574143/84602327-84fed300-ae54-11ea-8012-c241a4ba635c.png)
+
+![6](https://user-images.githubusercontent.com/59574143/84601667-fee08d80-ae4f-11ea-998b-9602fc7699b7.png)
+
+![6-2](https://user-images.githubusercontent.com/59574143/84602330-89c38700-ae54-11ea-9bc7-9eb63efe49b6.png)
 
 
  4.7 When each meal is clicked it will redirect them to the page with the meal modal automatically opened 
