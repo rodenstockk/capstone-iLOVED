@@ -11,7 +11,8 @@ and leave simple journal of your experience
 1. Site map
 
 ![0](https://user-images.githubusercontent.com/59574143/84601738-79111200-ae50-11ea-8267-c6baa296b510.JPG)
-
+<br>
+<br>
 
 2. Front-End Functionality;
 
