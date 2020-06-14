@@ -38,8 +38,9 @@ and leave simple journal of your experience
 4. Demo screensht:
 
 <ul>
- 4.1 Main page with slide show(beside hero image), and areas of Toronto<br>
-
+ 4.1 Main page with slide show(beside hero image), and areas of Toronto
+ <br>
+ 
  ![1](https://user-images.githubusercontent.com/59574143/84601656-f0927180-ae4f-11ea-8010-9395cb643bc5.png)
 
 
