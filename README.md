@@ -12,7 +12,6 @@ and leave simple journal of your experience
 
 ![0](https://user-images.githubusercontent.com/59574143/84601738-79111200-ae50-11ea-8267-c6baa296b510.JPG)
 <br>
-<br>
 
 2. Front-End Functionality;
 
@@ -24,7 +23,7 @@ and leave simple journal of your experience
 <li>Modal and multiple toggle switch was used to send their values to the back-end, so user can add dishes to their favorite and also catagorise them by their preference - Loved / liked / enough</li>
 <li>Event handler was used to POST user experience - journal feature</li>
 </ul>
-
+<br>
 
 3. Back-End Functionality;
 <ul>
@@ -34,7 +33,7 @@ and leave simple journal of your experience
 <li>Submitting a favorite from the Modal (meun page) POSTs to the /favorites API and PUT to /Restaurants</li>
 <li>Togggle cancel from the Modal (meun page) DELETEs to the /favorites API and PUT to /Restaurants</li>
 </ul>
-
+<br>
 
 4. Demo screensht:
 
