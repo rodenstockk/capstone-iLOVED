@@ -8,6 +8,9 @@ app designed to track all your favorite meals you tried, LOVED, and revisit with
 ones!! App allows you to search restaurant menu you want to try out, record meals you LOVED,
 and leave simple journal of your experience
 
+1. Site map
+![0](https://user-images.githubusercontent.com/59574143/84601738-79111200-ae50-11ea-8267-c6baa296b510.JPG)
+
 Front-End Functionality;
 
 Using the componet lifecycle componentDidMount - axios API request, and state - data is passed down as props to generate side videos, all main video content including comments
