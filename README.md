@@ -34,7 +34,6 @@ and leave simple journal of your experience
 <li>Togggle cancel from the Modal (meun page) DELETEs to the /favorites API and PUT to /Restaurants</li>
 </ul>
 <br>
-<br>
 
 4. Demo screensht:
 <br>
