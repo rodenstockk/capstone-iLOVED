@@ -37,31 +37,38 @@ and leave simple journal of your experience
 
 4. Demo screensht:
 
-4.1 Main page with slide show(beside hero image), and areas of Toronto
-![1](https://user-images.githubusercontent.com/59574143/84601656-f0927180-ae4f-11ea-8010-9395cb643bc5.png)
+ 4.1 Main page with slide show(beside hero image), and areas of Toronto
+ 
+ ![1](https://user-images.githubusercontent.com/59574143/84601656-f0927180-ae4f-11ea-8010-9395cb643bc5.png)
 
 
-4.2 Clicking the area of Toronto shows this page where users can serch/ and choose their Restaurants
-![2](https://user-images.githubusercontent.com/59574143/84601660-f7b97f80-ae4f-11ea-825b-756eb855f8b1.png)
+ 4.2 Clicking the area of Toronto shows this page where users can serch/ and choose their Restaurants
+ 
+ ![2](https://user-images.githubusercontent.com/59574143/84601660-f7b97f80-ae4f-11ea-825b-756eb855f8b1.png)
 
 
-4.3 Users can search with keyword(embeded in backend data)
-![3](https://user-images.githubusercontent.com/59574143/84601663-fab47000-ae4f-11ea-8335-3cabbcdf399d.png)
+ 4.3 Users can search with keyword(embeded in backend data)
+ 
+ ![3](https://user-images.githubusercontent.com/59574143/84601663-fab47000-ae4f-11ea-8335-3cabbcdf399d.png)
 
 
-4.4 Menu page - users can view menu and also record their experience below for their reference
-![4](https://user-images.githubusercontent.com/59574143/84601664-fb4d0680-ae4f-11ea-8b46-fecc74a0d5f5.png)
+ 4.4 Menu page - users can view menu and also record their experience below for their reference
+ 
+ ![4](https://user-images.githubusercontent.com/59574143/84601664-fb4d0680-ae4f-11ea-8b46-fecc74a0d5f5.png)
 
 
-4.5 Modal - when clicking each meal they can view and choose how they want to add to their favorite page
-4.5.1 - UI will also change when users choose - heart/star/enough
-![5](https://user-images.githubusercontent.com/59574143/84601665-fd16ca00-ae4f-11ea-8954-6e3e04b8616a.png)
+ 4.5 Modal - when clicking each meal they can view and choose how they want to add to their favorite page
+ 4.5.1 - UI will also change when users choose - heart/star/enough
+ 
+ ![5](https://user-images.githubusercontent.com/59574143/84601665-fd16ca00-ae4f-11ea-8954-6e3e04b8616a.png)
 
 
-4.6 iLOVED!(favorite page) - users can click through nested routes to view their liked/stared/not-liked meal
-![6](https://user-images.githubusercontent.com/59574143/84601667-fee08d80-ae4f-11ea-998b-9602fc7699b7.png)
+ 4.6 iLOVED!(favorite page) - users can click through nested routes to view their liked/stared/not-liked meal
+ 
+ ![6](https://user-images.githubusercontent.com/59574143/84601667-fee08d80-ae4f-11ea-998b-9602fc7699b7.png)
 
 
-4.7 When each meal is clicked it will redirect them to the page with the meal modal automatically opened 
-4.7.1 They can either change or delete their preference for each meals
-![7](https://user-images.githubusercontent.com/59574143/84601669-00aa5100-ae50-11ea-93fa-4d0e7c5d6fd8.png)
+ 4.7 When each meal is clicked it will redirect them to the page with the meal modal automatically opened 
+ 4.7.1 They can either change or delete their preference for each meals
+ 
+ ![7](https://user-images.githubusercontent.com/59574143/84601669-00aa5100-ae50-11ea-93fa-4d0e7c5d6fd8.png)
