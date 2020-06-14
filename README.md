@@ -37,7 +37,7 @@ and leave simple journal of your experience
 
 4. Demo screensht:
 <br>
-
+<ul>
  4.1 Main page with slide show(beside hero image), and areas of Toronto
  
  ![1](https://user-images.githubusercontent.com/59574143/84601656-f0927180-ae4f-11ea-8010-9395cb643bc5.png)
@@ -77,3 +77,4 @@ and leave simple journal of your experience
  4.7.1 They can either change or delete their preference for each meals
  
  ![7](https://user-images.githubusercontent.com/59574143/84601669-00aa5100-ae50-11ea-93fa-4d0e7c5d6fd8.png)
+</ul>
