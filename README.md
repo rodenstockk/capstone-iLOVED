@@ -40,11 +40,11 @@ and leave simple journal of your experience
 
 <ul>
  4.0 Login page - user authentication(firebase) with Google, faceBook and emil/ css amination 
+ 4.0.1 User interface - view their profile and log out pop up - React.js modal
  
  ![0-0](https://user-images.githubusercontent.com/59574143/84719334-194a6200-af49-11ea-8fb7-043038ae4513.JPG)
  ![0-1](https://user-images.githubusercontent.com/59574143/84719341-1b142580-af49-11ea-9255-22c2ac5b51be.JPG)
  
- 4.0 User interface - view their profile and log out pop up - React.js modal 
  ![0-2](https://user-images.githubusercontent.com/59574143/84719365-2e26f580-af49-11ea-84cd-2ec605b0bfe8.png)
  
  4.1 Main page with slide show(beside hero image), and areas of Toronto
