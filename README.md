@@ -1,5 +1,5 @@
 # capstone-iLOVED
-Capstone project - building full stack app - using Node express, React.js
+Capstone project - building full stack app - using Node express, React.js, Firebase data base/ authentication 
 
 Full stack app using Node Express and React to build API and Application + firebase authentication
 
