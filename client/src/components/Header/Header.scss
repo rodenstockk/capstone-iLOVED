@@ -1,0 +1,120 @@
+@import '../../style/reset';
+
+
+header {
+    background-color:#3E9FFE;
+    display: flex;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+}
+
+.nav__bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+li>a {
+    color: white;
+    &:hover {
+        color:blue;
+    }
+}
+
+a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+
+
+li {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: 30px;
+    padding-bottom: 46px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 150px;
+    margin: 50px;
+}
+
+.logIn {
+    display: flex;
+    flex-direction: row; 
+    width: 100%;   
+    justify-content: flex-end;
+    align-items: flex-end; 
+    padding-bottom: 46px;  
+    padding-right: 50px;
+    position: relative;
+    h1 {
+    font-size: 28px;
+    color: white;
+    padding-left: 10px;
+    }
+    #lock {
+        width: 30px;
+        height: 32px;
+        padding-bottom: 4px;
+    }
+}
+
+
+.modal {
+    display: flex;
+
+    justify-content: space-between;
+    &__cont {
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+        h1{
+            letter-spacing: 2px;
+            font-size: 28px;
+        }
+    }
+}
+
+
+#modalImage-login {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px; 
+    margin-right: 20px;
+    // border: 5px solid #0095FF;
+}
+
+#modalButton-login {
+    font-size: 14px;
+    margin-top: 15px;
+    justify-content: end;
+    width: 100px;
+    height: 35px;
+    border: 1.5px solid #0095FF;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #0095FF;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;        
+}
+
+button:focus
+{
+  outline:none;
+}

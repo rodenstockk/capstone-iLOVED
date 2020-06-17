@@ -1,0 +1,63 @@
+@import '../../style/reset';
+
+
+#exp {
+    display: flex;
+    flex-direction: column;
+    background-color: dodgerblue;
+    color: white;
+    padding: 50px 10% 100px 10%;
+  }
+  
+  .comments {
+    border-bottom: 1.1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+  }
+  
+  .comments-image {
+    margin-top: 35px;
+    display: flex;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    background-image: url('../../assets/icon/heart.JPG');
+    background-color: grey;
+    background-position: 40% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .comments-content {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-top: 22px;
+    padding-bottom: 16px;
+  }
+  
+  .comments-content__intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+    &-date {
+      font-size: 15px;
+      letter-spacing: 0.5px;
+      font-weight: 600;
+    }
+  }
+  
+  .comments-content__detail {
+    display: flex;
+    letter-spacing: 0.4px;
+    line-height: 19px;
+    opacity: 0.9;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+  }

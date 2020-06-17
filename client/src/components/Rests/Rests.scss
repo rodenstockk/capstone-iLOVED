@@ -1,0 +1,53 @@
+@import '../../style/reset';
+
+.rests {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rests-search {
+    margin-top: 70px;
+    width: 80%;
+    height: 48px;
+    display: flex;
+    border: 0.5px solid #3E9FFE;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    align-items: center;
+    padding-left: 20px;
+    color:#323232;
+    opacity: 0.9;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    // @include tablet-only {
+    //     width: 32%;
+    //     margin: 0px;
+    // }
+    // @include desktop-only {
+    //     width: 37%;
+    //     margin-right: 5px;
+    // }
+    span {
+        margin-left: 10px;
+        padding-top: 3.5px;
+    }
+}
+
+.rests-search:focus
+{
+  border: 2px solid dodgerblue;
+  outline:none;
+} 
+
+.rests-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    padding: 70px 5% 70px 5%;
+    position: relative;
+    width: 100%;
+
+}

@@ -1,0 +1,96 @@
+@import '../../style/reset';
+
+.favList {
+    margin: 7% 5% 5% 5%;
+
+    #favLovedH1 {
+        padding-left: 10px;
+        color: dodgerblue;
+        font-size: 45px;
+    }
+    #favWillH1 {
+        padding-left: 10px;
+        color: darkgoldenrod;
+        font-size: 45px;
+    }
+    #favEnoughH1 {
+        padding-left: 10px;
+        color: gray;
+        font-size: 45px;
+    }
+}
+
+.subHeader {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-evenly;
+    border-bottom: 2px solid dodgerblue;
+}
+
+.subHeader .active {
+    transform: scale(1.2);
+}
+
+.favLovedListTop {
+    display: flex;
+    padding-bottom: 10px;
+    // margin-right: 100px;
+    // position: absolute;
+    // border-bottom: 3px dotted dodgerblue;
+}
+
+
+.favWillListTop {
+    display: flex;
+    padding-bottom: 10px;
+    // margin-right: 100px;
+    // position: absolute;
+    // left: 400px;
+    // border-bottom: 3px dotted darkgoldenrod;
+}
+.favEnoughListTop {
+    display: flex;
+    padding-bottom: 10px;
+    // position: absolute;
+    // width: 100%;
+    // left: 800px;
+    // border-bottom: 3px dotted gray;
+}
+
+#favHeartIcon {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-image: url('../../assets/icon/heart.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#favStarIcon {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-image: url('../../assets/icon/star.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(110%);
+}
+#favEnoughIcon {
+    width: 50px;
+    height: 50px;
+    background-image: url('../../assets/icon/enough.png');
+    background-size: 90%;                    
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.favMeal {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    padding: 50px 0 50px 0;
+    position: relative;
+    width: 100%;
+}

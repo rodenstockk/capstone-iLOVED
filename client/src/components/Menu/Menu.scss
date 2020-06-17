@@ -1,0 +1,190 @@
+@import '../../style/reset';
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    padding: 150px 5% 50px 5%;
+    position: relative;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+.mealHero{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    position: relative;
+    background-color: white;
+    color: dodgerblue;
+    margin-top: 30px;
+    padding-left: 30px;
+    overflow: hidden;
+    h1 {
+        font-size: 100px;
+        letter-spacing: 1px;
+        display: flex;
+        justify-content: start;
+        // text-align: center;
+        width: 70%;
+        font-weight: bolder;   
+        letter-spacing: 5px;
+        margin-bottom: 3%;
+    }
+    span {
+        margin-left: 20px;
+        font-size: 20px;
+        letter-spacing: 1px;
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        width: 55%;
+        font-weight: bold;   
+        letter-spacing: 2px;
+    }
+    p {
+        margin-top: 6%;
+        font-size: 20px;
+        letter-spacing: 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 70%;
+        height: 100px;
+        font-weight: normal;
+    }
+}
+
+.rests-icon {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.rests-icon__logo-phone {
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.rests-icon__logo-loca {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+#mealHero {
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+#backArrow {
+    margin-top: 25px;
+    position: absolute;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+.conversation {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // border-bottom: 5px solid dodgerblue;
+    padding: 50px 10% 100px 10%;
+  }
+
+.conversation-content {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  &__boxes {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+.conversation-image {
+    display: flex;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-image: url('../../assets/icon/heart.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 32px;
+  }
+  
+  label {
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 3px;
+    font-weight: 500;
+    opacity: 0.4;
+  }
+  
+  .conversation-content__boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  
+    position: relative;
+    width: 100%;
+  }
+
+
+  #comment-input {
+    border: 1.5px solid dodgerblue;
+    border-radius: 5px;
+    height: 95px;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  
+  #comment-input:focus
+  {
+    border: 2px solid #0095FF;
+    outline:none;
+  } 
+  
+  #submit {
+    margin-top: 15px;
+    justify-content: end;
+    width: 15%;
+    height: 47px;
+    border: 1.5px solid #0095FF;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #0095FF;
+    color: white;
+    letter-spacing: 1px;
+  }
+  
+  #submit:focus
+  {
+    outline:none;
+  } 
+  
+  ::placeholder {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+  }
+  
+  textarea { 
+    resize: none; 
+  }

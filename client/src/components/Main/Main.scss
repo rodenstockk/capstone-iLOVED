@@ -1,0 +1,100 @@
+@import '../../style/reset';
+
+section {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.sideHero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: relative;
+    background-color: white;
+    h1 {
+        font-size: 22px;
+        letter-spacing: 1px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 70%;
+        color: dodgerblue;
+        font-weight: normal;
+        margin-top: 20px;
+        margin-bottom: 30px;   
+    }
+}
+
+.sideHero__icon {
+    width: auto;
+    height: 150px;
+}
+.sideHero__img {
+    width: 65px;
+    height: 50px;
+}
+
+.hero {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-image: url('../../assets/image/in.jpg'); 
+}
+
+main {
+    padding: 0 5% 0 5%;
+
+    background-color: white;
+}
+
+.area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    // padding: 0 5% 0 5%;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.area__img {
+    width: 100%;
+    min-height: 193px;
+    transition: .2s ease-in-out;
+    filter: grayscale(70%);
+
+    &:hover {
+    filter: none;
+    transform: scale(1.1);
+    }   
+}
+
+h3 {
+    display: flex;
+    font-size: 16px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: dodgerblue;
+    opacity: 0.7;
+    width: 10%;
+    height: 30px;
+    background-color:#ccf0fe;
+    // transform: translate(-50%, -50%);
+}
+
+#restLink {
+    display: flex;
+    width: 32%;
+    
+    margin-bottom: 24px;
+    overflow: hidden; 
+}

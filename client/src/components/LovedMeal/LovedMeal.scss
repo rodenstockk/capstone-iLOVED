@@ -1,0 +1,31 @@
+@import '../../style/reset';
+
+
+.lovedCard {
+    width: 290px;
+    height: 340px;
+
+    margin: 17px;
+   
+    display: flex;
+    flex-direction: column;
+    background-color: dodgerblue;
+    flex-wrap: wrap;
+   
+    h2 {
+        padding: 5px;
+        font-size: 20px;
+        color: white;
+    }
+    span {
+        color: white;
+        padding: 5px;
+    }
+}
+
+.lovedCard__image {
+    width: 100%;
+    height: 75%;
+}
+
+
