@@ -1,7 +1,9 @@
 # capstone-iLOVED
-Capstone project - building full stack app - using Node express, React.js, Firebase DB(firestore)/ authentication 
+Capstone project - building full stack app - using Node express, React.js, Firebase DB(firestore)/ authentication, and Heroku deployment 
 
-Full stack app using Firebase firestore + Node Express and React to build API and Application + firebase authentication
+Full stack app(deployed via Heroku) using Firebase firestore + Node Express and React to build API and Application + firebase authentication
+
+Deployed Web-app: https://mysterious-tundra-76552.herokuapp.com/
 
 Website app designed to track all your favorite meals you tried, LOVED, and revisit with your LOVED
 ones!! App allows you to search restaurant menu you want to try out, record meals you LOVED,
