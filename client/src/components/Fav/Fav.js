@@ -13,7 +13,7 @@ import axios from 'axios';
 import { Link, withRouter, BrowserRouter, Switch, Route, NavLink } from 'react-router-dom';
 
 
-const API_URL = 'http://localhost:8080';
+const API_URL = '';
 
 class Fav extends React.Component {    
 

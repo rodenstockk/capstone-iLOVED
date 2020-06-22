@@ -7,7 +7,7 @@ import axios from 'axios';
 // import { Link } from 'react-router-dom';
 import Rest from '../Rest/Rest';
 
-const API_URL = 'http://localhost:8080';
+const API_URL = '';
 
 class Rests extends React.Component {
 

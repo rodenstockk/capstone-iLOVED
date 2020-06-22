@@ -12,7 +12,7 @@ import phone from '../../assets/icon/phone.png';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 
-const API_URL = 'http://localhost:8080';
+const API_URL = '';
 
 class Menu extends React.Component {
 

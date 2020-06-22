@@ -8,7 +8,7 @@ import axios from 'axios';
 // import { Link } from 'react-router-dom';
 
 Modal.setAppElement('#root')
-const API_URL = 'http://localhost:8080';
+const API_URL = '';
 
 class Meal extends React.Component {    
 
