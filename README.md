@@ -8,7 +8,7 @@ Deployed Web app: https://iloved.herokuapp.com/
 Website app designed to track all your favorite meals you tried, LOVED, and revisit with your LOVED
 ones!! App allows you to search restaurant menu you want to try out, record meals you LOVED,
 and leave simple journal of your experience
-<br>
+
 
 1. Site map
 
